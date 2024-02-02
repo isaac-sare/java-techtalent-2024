@@ -1,7 +1,10 @@
 	COMMIT
 	PUSH	
 
+EAT 
 
 
 	FETCH
 	PULL
+SLEEP
+REPEAT
