@@ -1,5 +1,4 @@
 package ej1;
-
 public class ClaseInteger {
 
 	public static void main(String[] args) {
