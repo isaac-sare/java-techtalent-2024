@@ -1,8 +1,8 @@
 package Test;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class PonderacióII {
+public class PonderacióNumsVariablesApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,30 +11,28 @@ public class PonderacióII {
 	
 	double n1, n2, n3;  //PER QUÈ COLLONS NO FUNCIONA L'ENTRADA DE NÚMEROS DECIMALS?
 	
+	
 	//INPUT KEYBOARD
-	teclado= new Scanner(System.in);
+	teclado = new Scanner(System.in);
 	System.out.print("Introdueix la nota del primer parcial: ");
-	n1=teclado.nextInt();
+	n1=teclado.nextDouble();
 	System.out.print("Introdueix la nota del segon parcial: ");
-	n2 = teclado.nextInt();
+	n2 =teclado.nextDouble();
 	System.out.print("Introdueix la nota del final: ");
-	n3 = teclado.nextInt();
-	
-	double notaFinal=n1*0.2+n2*0.3+n3;
-	
+	n3 =teclado.nextDouble();
 	
 	//PONDERACIÓ
 	System.out.print( "La seva suma ponderada és:" );
 	System.out.println(n1*0.2+n2*0.3+n3*0.5);
 	
 	//MISSATGE
-	if (notaFinal>=9)
+	if (n1*0.2+n2*0.3+n3*0.5>=9)
 	System.out.println("Molt bé, has tret un excel·lent. FELICITATS!");
-	if (notaFinal>=5 && notaFinal<7)
+	if (n1*0.2+n2*0.3+n3*0.5>=5 && n1*0.2+n2*0.3+n3*0.5<7)
 	System.out.println("Has aprovat.");
-	if (notaFinal>=7 && notaFinal<9)
+	if (n1*0.2+n2*0.3+n3*0.5>=7 && n1*0.2+n2*0.3+n3*0.5<9)
 	System.out.println("Has tret un notable. Segueix així!");
-	if (notaFinal>=0 && notaFinal<5)
+	if (n1*0.2+n2*0.3+n3*0.5>=0 && n1*0.2+n2*0.3+n3*0.5<5)
 	System.out.println("Has suspès, t'has d'esforçar més.");
 	}
 
