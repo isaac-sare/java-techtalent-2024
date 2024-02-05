@@ -5,7 +5,7 @@ public class Ponderació {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double n1=10; // El primer parcial vale un 20%, pondera 0.2
-		double n2=6;	// El segundo parcial vale un 30%, pondera 0.3
+		double n2=6.8;	// El segundo parcial vale un 30%, pondera 0.3
 		double n3=8;	// El final vale un 50%, pondera 0.5
 		System.out.println("En els parcials has tret un "+n1+" , un "+n2+" y un "+n3+" al final. Per tant, la teva nota final ponderada és "+(n1*0.2+n2*0.3+n3*0.5));
 		if (n1*0.2+n2*0.3+n3*0.5>=9)

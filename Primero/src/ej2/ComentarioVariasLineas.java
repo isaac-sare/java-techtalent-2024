@@ -6,7 +6,7 @@ public class ComentarioVariasLineas {
 		// TODO Auto-generated method stub
 		/*System.out.println("Hola buenas");
 		System.out.println("Bye bye hasta otro ratito");
-		System.out.println("Cucu");*/
+		System.out.println("Cucu"); dddd*/
 		for(int i=0;i<=20;/* ahora viene el paso */ i++)
 			System.out.print(i+" ");
 		System.out.println("*bipbip* FIN DE PROGRAMA *biiiiiiiip*");
